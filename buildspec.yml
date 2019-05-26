@@ -7,8 +7,8 @@ phases:
   build:
     commands:
       - bash create.sh
-  artifacts:
-    files:
-      - deploy/build.log
-      - deploy/image_*-K3S-RPI-custom.zip
-    discard-paths: yes
+artifacts:
+  files:
+    - deploy/build.log
+    - deploy/image_*-K3S-RPI-custom.zip
+  discard-paths: yes
