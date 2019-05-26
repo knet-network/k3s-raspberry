@@ -7,6 +7,9 @@ phases:
   build:
     commands:
       - bash create.sh
+    finally:
+      - echo "Remove old containers"
+      - docker rm -f $(docker ps -aq) || true
 artifacts:
   files:
     - deploy/build.log
