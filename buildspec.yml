@@ -4,9 +4,6 @@ phases:
   install:
     runtime-versions:
       docker: 18
-  pre_build:
-    commands:
-      - docker info
   build:
     commands:
       - bash create.sh
