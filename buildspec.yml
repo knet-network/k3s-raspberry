@@ -4,6 +4,8 @@ phases:
   install:
     runtime-versions:
       docker: 18
+    commands:
+      - apt install sudo -y
   build:
     commands:
       - bash create.sh
