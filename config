@@ -1,0 +1,4 @@
+IMG_NAME='K3S-RPPI'
+ENABLE_SSH=1
+TIMEZONE=Europe/Berlin
+STAGE_LIST="stage0 stage1 stage2 custom-stage"
