@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+apt-get install build-essential -y
 wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tar.xz
 tar xJf Python-3.6.3.tar.xz
 cd Python-3.6.3
@@ -10,3 +11,4 @@ pip3 install --upgrade pip
 cd ..
 rm -r Python-3.6.3
 rm Python-3.6.3.tar.xz
+apt-get autoremove build-essential -y
