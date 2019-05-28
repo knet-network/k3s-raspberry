@@ -13,5 +13,5 @@ phases:
 artifacts:
   files:
     - deploy/build.log
-    - deploy/image_*-K3S-RPI-custom.zip
+    - deploy/image_*-K3S-RPI*.zip
   discard-paths: yes
