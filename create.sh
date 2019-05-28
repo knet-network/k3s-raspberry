@@ -31,7 +31,7 @@ function start_build() {
 }
 
 function end_build() {
-    mv pigen/deploy deploy/
+    mv pigen/deploy/ deploy/
     rm -r pigen
 }
 
